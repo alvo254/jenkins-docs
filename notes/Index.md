@@ -1,4 +1,9 @@
-Continuous Integration (CI) - Is the practice of automation the intergration of code changes from multiple contributors into a single software project
-Continuous Delivery (CD) - Is an extension of continous intergrarion since it automatically deploys all changes to a testing and/or production after the build stage
-Pipelines - a series of steps that build, test and deploy automatically to environments.
-Agent - An agent is typically a machine, or container, which connects to a Jenkins controller and executes tasks when directed by the controller.
+- Continuous Integration (CI) - Is the practice of automation the intergration of code changes from multiple contributors into a single software project
+- Continuous Delivery (CD) - Is an extension of continous intergrarion since it automatically deploys all changes to a testing and/or production after the build stage
+- Pipelines - A user-defined model of a continuous delivery pipeline, for more read the [Pipeline chapter](https://www.jenkins.io/doc/book/pipeline/) in this handbook.
+- Agent - An agent is typically a machine, or container, which connects to a Jenkins controller and executes tasks when directed by the controller.
+- Artifact - An immutable file generated during a [Build](https://www.jenkins.io/doc/book/glossary/#build) or [Pipeline](https://www.jenkins.io/doc/book/glossary/#pipeline) run which is **archived** onto the Jenkins [Controller](https://www.jenkins.io/doc/book/glossary/#controller) for later retrieval by users.
+- Controller - The central, coordinating process which stores configuration, loads plugins, and renders the various user interfaces for Jenkins.
+- Downstream - A configured [Pipeline](https://www.jenkins.io/doc/book/glossary/#pipeline) or [job](https://www.jenkins.io/doc/book/glossary/#job) which is triggered as part of the execution of a separate Pipeline or Job.
+- Executor - A slot for execution of work defined by a [Pipeline](https://www.jenkins.io/doc/book/glossary/#pipeline) or [job](https://www.jenkins.io/doc/book/glossary/#job) on a [Node](https://www.jenkins.io/doc/book/glossary/#node). A Node may have zero or more Executors configured which corresponds to how many concurrent Jobs or Pipelines are able to execute on that Node.
+- Step - A user-defined model of a continuous delivery pipeline, for more read the [Pipeline chapter](https://www.jenkins.io/doc/book/pipeline/) in this handbook.
